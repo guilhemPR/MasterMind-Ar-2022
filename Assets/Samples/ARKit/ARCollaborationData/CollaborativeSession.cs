@@ -31,7 +31,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         void DisableNotSupported(string reason)
         {
             enabled = false;
-            Logger.Log(reason);
+            //Logger.Log(reason);
         }
 
         void OnEnable()
